@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'JAi';
+    src: url('fonts/JAi_____.TTF') format('truetype');
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #c61818e4;
+    margin: 1;
+    padding: 0;
+}
+
+.container {
+    animation: fadeIn 2s ease-in-out;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffffaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+
+.containerdatos {
+    position: relative;
+    background-color: #cc4543d8;
+    width: 380px;
+    height: 180px;
+    padding: 15px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    text-align: start;
+    font-size: 18px;
+    transition: background-color 0.5s ease;
+}
+
+
+.containerdatos:hover {
+    background-color: #c61818e4;
+    /* replace with desired color */
+}
+
+
+h1 {
+    font-family: helvetica, sans-serif;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: color 0.3s ease;
+
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#yo {
+    animation: slideInRight 2.5s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 35px 50px 0 0;
+}
+
+#code {
+    animation: slideInRight 2.5s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+    position: absolute;
+    top: 0;
+    right: 100;
+    margin: 25px 50px 0 0;
+}
+
+h1:hover {
+    color: #c61818e4;
+}
+
+
+.animated-heading {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 13s;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
