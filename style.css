@@ -20,16 +20,23 @@ h1 {
     font-family: helvetica, sans-serif;
     font-size: 32px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-align: center;
     margin-right: 10px;
 }
 
 h2 {
+    margin-top: 30px;
     font-size: 24px;
     text-align: center;
     color: #474747;
 }
+
+h3 {
+    margin-left: 25px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
 
 
 #code {
@@ -64,6 +71,36 @@ h2 {
     left: 50%;
     transform: translateX(-50%);
 }
+
+.button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 300px;
+}
+
+.button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.button:active {
+    background-color: #000000;
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 
 @keyframes typing {
     from {
