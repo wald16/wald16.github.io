@@ -91,7 +91,9 @@ h3 {
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-left: 300px;
+
 }
+
 
 .button:hover {
     background-color: #ff8800;
@@ -137,5 +139,13 @@ h3 {
 
     .animated-heading {
         animation: typing 6s;
+    }
+
+    .button {
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 60%;
     }
 }
